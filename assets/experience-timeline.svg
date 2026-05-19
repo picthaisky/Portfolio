@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="exp_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/><stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="card_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/><stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="380" rx="16" fill="url(#exp_bg)"/>
+
+  <!-- Timeline Line -->
+  <line x1="400" y1="50" x2="400" y2="340" stroke="#334155" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Card 1 - Right -->
+  <g transform="translate(430,50)">
+    <rect width="340" height="90" rx="10" fill="url(#card_bg)" stroke="#3b82f6" stroke-width="1" opacity="0.9"/>
+    <polygon points="-30,45 -20,38 -10,45 -20,52" fill="#3b82f6"/>
+    <text x="20" y="28" fill="#60a5fa" font-size="11" font-family="Segoe UI,sans-serif" font-weight="bold">Jul 2023 — Present</text>
+    <text x="20" y="48" fill="#f1f5f9" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">Software Dev Full Stack</text>
+    <text x="20" y="68" fill="#94a3b8" font-size="11" font-family="Segoe UI,sans-serif">Kings Pack Industrial — .NET Core + Angular</text>
+  </g>
+
+  <!-- Card 2 - Left -->
+  <g transform="translate(30,160)">
+    <rect width="340" height="90" rx="10" fill="url(#card_bg)" stroke="#8b5cf6" stroke-width="1" opacity="0.9"/>
+    <polygon points="350,45 360,38 370,45 360,52" fill="#8b5cf6"/>
+    <text x="20" y="28" fill="#a78bfa" font-size="11" font-family="Segoe UI,sans-serif" font-weight="bold">2018 — 2022</text>
+    <text x="20" y="48" fill="#f1f5f9" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">IT System Administrator</text>
+    <text x="20" y="68" fill="#94a3b8" font-size="11" font-family="Segoe UI,sans-serif">Sriracha Cancer Alliance Hospital — Proxmox</text>
+  </g>
+
+  <!-- Card 3 - Right -->
+  <g transform="translate(430,270)">
+    <rect width="340" height="80" rx="10" fill="url(#card_bg)" stroke="#06b6d4" stroke-width="1" opacity="0.9"/>
+    <polygon points="-30,40 -20,33 -10,40 -20,47" fill="#06b6d4"/>
+    <text x="20" y="28" fill="#22d3ee" font-size="11" font-family="Segoe UI,sans-serif" font-weight="bold">2014 — 2018</text>
+    <text x="20" y="48" fill="#f1f5f9" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">IT Supervisor</text>
+    <text x="20" y="68" fill="#94a3b8" font-size="11" font-family="Segoe UI,sans-serif">Rest At 88 Co., Ltd.</text>
+  </g>
+
+  <!-- Timeline dots -->
+  <circle cx="400" cy="95" r="6" fill="#3b82f6"/><circle cx="400" cy="95" r="3" fill="#0f172a"/>
+  <circle cx="400" cy="205" r="6" fill="#8b5cf6"/><circle cx="400" cy="205" r="3" fill="#0f172a"/>
+  <circle cx="400" cy="310" r="6" fill="#06b6d4"/><circle cx="400" cy="310" r="3" fill="#0f172a"/>
+</svg>

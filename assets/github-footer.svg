@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180">
+  <defs>
+    <linearGradient id="p_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/><stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="plat_top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/><stop offset="100%" style="stop-color:#1e40af"/>
+    </linearGradient>
+    <linearGradient id="plat_left" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a"/><stop offset="100%" style="stop-color:#172554"/>
+    </linearGradient>
+    <linearGradient id="plat_right" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb"/><stop offset="100%" style="stop-color:#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="180" rx="16" fill="url(#p_bg)"/>
+
+  <!-- Isometric Platform -->
+  <g transform="translate(250,85)">
+    <polygon points="0,30 150,-20 300,30 150,80" fill="url(#plat_top)" opacity="0.5"/>
+    <polygon points="0,30 0,50 150,100 150,80" fill="url(#plat_left)" opacity="0.4"/>
+    <polygon points="150,80 150,100 300,50 300,30" fill="url(#plat_right)" opacity="0.4"/>
+  </g>
+
+  <!-- GitHub text -->
+  <text x="400" y="70" text-anchor="middle" fill="#f1f5f9" font-size="24" font-family="Segoe UI,sans-serif" font-weight="bold">GitHub Portfolio</text>
+  <text x="400" y="125" text-anchor="middle" fill="#93c5fd" font-size="16" font-family="Segoe UI,sans-serif">github.com/picthaisky</text>
+  <text x="400" y="155" text-anchor="middle" fill="#64748b" font-size="13" font-family="Segoe UI,sans-serif">View all projects and contributions</text>
+</svg>

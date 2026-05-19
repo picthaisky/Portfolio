@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460">
+  <defs>
+    <linearGradient id="s_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/><stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="s_top"><stop offset="0%" style="stop-color:#818cf8"/><stop offset="100%" style="stop-color:#6366f1"/></linearGradient>
+    <linearGradient id="s_left"><stop offset="0%" style="stop-color:#4f46e5"/><stop offset="100%" style="stop-color:#3730a3"/></linearGradient>
+    <linearGradient id="s_right"><stop offset="0%" style="stop-color:#6366f1"/><stop offset="100%" style="stop-color:#4338ca"/></linearGradient>
+    <linearGradient id="g_top"><stop offset="0%" style="stop-color:#34d399"/><stop offset="100%" style="stop-color:#10b981"/></linearGradient>
+    <linearGradient id="g_left"><stop offset="0%" style="stop-color:#059669"/><stop offset="100%" style="stop-color:#047857"/></linearGradient>
+    <linearGradient id="g_right"><stop offset="0%" style="stop-color:#10b981"/><stop offset="100%" style="stop-color:#059669"/></linearGradient>
+    <linearGradient id="o_top"><stop offset="0%" style="stop-color:#fb923c"/><stop offset="100%" style="stop-color:#f97316"/></linearGradient>
+    <linearGradient id="o_left"><stop offset="0%" style="stop-color:#ea580c"/><stop offset="100%" style="stop-color:#c2410c"/></linearGradient>
+    <linearGradient id="o_right"><stop offset="0%" style="stop-color:#f97316"/><stop offset="100%" style="stop-color:#ea580c"/></linearGradient>
+    <linearGradient id="c_top"><stop offset="0%" style="stop-color:#22d3ee"/><stop offset="100%" style="stop-color:#06b6d4"/></linearGradient>
+    <linearGradient id="c_left"><stop offset="0%" style="stop-color:#0891b2"/><stop offset="100%" style="stop-color:#0e7490"/></linearGradient>
+    <linearGradient id="c_right"><stop offset="0%" style="stop-color:#06b6d4"/><stop offset="100%" style="stop-color:#0891b2"/></linearGradient>
+  </defs>
+  <rect width="800" height="460" rx="16" fill="url(#s_bg)"/>
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#f1f5f9" font-family="Segoe UI,sans-serif" font-size="22" font-weight="bold">Technical Skills</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI,sans-serif" font-size="13">Isometric Bar Chart</text>
+
+  <!-- Backend (Purple) -->
+  <g transform="translate(80,120)">
+    <polygon points="0,95 50,70 100,95 50,120" fill="url(#s_top)"/>
+    <polygon points="0,95 0,190 50,215 50,120" fill="url(#s_left)"/>
+    <polygon points="50,120 50,215 100,190 100,95" fill="url(#s_right)"/>
+    <text x="50" y="105" text-anchor="middle" fill="#e0e7ff" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">95%</text>
+  </g>
+  <g transform="translate(130,140)">
+    <polygon points="0,85 50,60 100,85 50,110" fill="url(#s_top)"/>
+    <polygon points="0,85 0,170 50,195 50,110" fill="url(#s_left)"/>
+    <polygon points="50,110 50,195 100,170 100,85" fill="url(#s_right)"/>
+    <text x="50" y="95" text-anchor="middle" fill="#e0e7ff" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">85%</text>
+  </g>
+  <g transform="translate(180,155)">
+    <polygon points="0,80 50,55 100,80 50,105" fill="url(#s_top)"/>
+    <polygon points="0,80 0,160 50,185 50,105" fill="url(#s_left)"/>
+    <polygon points="50,105 50,185 100,160 100,80" fill="url(#s_right)"/>
+    <text x="50" y="90" text-anchor="middle" fill="#e0e7ff" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">80%</text>
+  </g>
+  <text x="130" y="360" text-anchor="middle" fill="#a5b4fc" font-size="10" font-family="Segoe UI,sans-serif">C#.NET</text>
+  <text x="180" y="375" text-anchor="middle" fill="#a5b4fc" font-size="10" font-family="Segoe UI,sans-serif">Java</text>
+  <text x="230" y="390" text-anchor="middle" fill="#a5b4fc" font-size="10" font-family="Segoe UI,sans-serif">Python</text>
+  <text x="170" y="420" text-anchor="middle" fill="#818cf8" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">Backend</text>
+
+  <!-- Frontend (Green) -->
+  <g transform="translate(300,130)">
+    <polygon points="0,90 50,65 100,90 50,115" fill="url(#g_top)"/>
+    <polygon points="0,90 0,180 50,205 50,115" fill="url(#g_left)"/>
+    <polygon points="50,115 50,205 100,180 100,90" fill="url(#g_right)"/>
+    <text x="50" y="100" text-anchor="middle" fill="#d1fae5" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">90%</text>
+  </g>
+  <g transform="translate(350,160)">
+    <polygon points="0,75 50,50 100,75 50,100" fill="url(#g_top)"/>
+    <polygon points="0,75 0,150 50,175 50,100" fill="url(#g_left)"/>
+    <polygon points="50,100 50,175 100,150 100,75" fill="url(#g_right)"/>
+    <text x="50" y="85" text-anchor="middle" fill="#d1fae5" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">75%</text>
+  </g>
+  <text x="350" y="370" text-anchor="middle" fill="#6ee7b7" font-size="10" font-family="Segoe UI,sans-serif">Angular</text>
+  <text x="400" y="385" text-anchor="middle" fill="#6ee7b7" font-size="10" font-family="Segoe UI,sans-serif">React</text>
+  <text x="375" y="420" text-anchor="middle" fill="#34d399" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">Frontend</text>
+
+  <!-- DevOps (Orange) -->
+  <g transform="translate(490,125)">
+    <polygon points="0,92 50,67 100,92 50,117" fill="url(#o_top)"/>
+    <polygon points="0,92 0,184 50,209 50,117" fill="url(#o_left)"/>
+    <polygon points="50,117 50,209 100,184 100,92" fill="url(#o_right)"/>
+    <text x="50" y="102" text-anchor="middle" fill="#ffedd5" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">92%</text>
+  </g>
+  <g transform="translate(540,140)">
+    <polygon points="0,88 50,63 100,88 50,113" fill="url(#o_top)"/>
+    <polygon points="0,88 0,176 50,201 50,113" fill="url(#o_left)"/>
+    <polygon points="50,113 50,201 100,176 100,88" fill="url(#o_right)"/>
+    <text x="50" y="98" text-anchor="middle" fill="#ffedd5" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">88%</text>
+  </g>
+  <g transform="translate(590,155)">
+    <polygon points="0,85 50,60 100,85 50,110" fill="url(#o_top)"/>
+    <polygon points="0,85 0,170 50,195 50,110" fill="url(#o_left)"/>
+    <polygon points="50,110 50,195 100,170 100,85" fill="url(#o_right)"/>
+    <text x="50" y="95" text-anchor="middle" fill="#ffedd5" font-size="9" font-family="Segoe UI,sans-serif" font-weight="bold">85%</text>
+  </g>
+  <text x="540" y="360" text-anchor="middle" fill="#fdba74" font-size="10" font-family="Segoe UI,sans-serif">Server</text>
+  <text x="590" y="375" text-anchor="middle" fill="#fdba74" font-size="10" font-family="Segoe UI,sans-serif">Proxmox</text>
+  <text x="640" y="390" text-anchor="middle" fill="#fdba74" font-size="10" font-family="Segoe UI,sans-serif">Docker</text>
+  <text x="590" y="420" text-anchor="middle" fill="#fb923c" font-size="13" font-family="Segoe UI,sans-serif" font-weight="bold">DevOps</text>
+</svg>
